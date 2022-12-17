@@ -1,0 +1,275 @@
+body {
+margin: 0;
+background-color: rgba(18, 18, 26, 1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.navbar li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.navbar a:hover {
+  color: rgb(179, 179, 179)
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-color: rgba(6, 6, 15, 0.72);
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(6px);
+  z-index: 100;
+}
+
+.logocontainer {
+  margin: auto;
+  width: 200px;
+}
+
+.logocontainer h1 {
+  text-align: center;
+  font-family: rimouski;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 35px;
+  margin: 0;
+}
+
+.maincontainer {
+  background-color: rgba(18, 18, 26, 1);
+  width: 100%;
+  height: 1900px;
+  margin: auto;
+  margin-top: 77px;
+}
+
+.hero-image {
+  background-image: url("images/ah2.png");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: ah;
+  text-transform: uppercase;
+}
+
+
+.maincontainer iframe {
+  margin-top: 100px;
+}
+
+.maincontainer h1 {
+  margin: 0;
+}
+
+.maincontainer h3 {
+  font-family: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding-top: 30px;
+  color: white;
+}
+
+.maincontainer h2 {
+  font-family: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 40px;
+  color: white;
+}
+
+.maincontainer p {
+  color: white;
+  font-family: inter;
+  text-align: center;
+}
+
+.support {
+  width: 800px;
+  height: 340px;
+  background-color: rgba(23, 23, 34, 1);
+  margin-top: 80px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.support h4 {
+  font-family: bold;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+}
+
+.support form {
+  font-family: bold;
+  text-align: center;
+  color: white;
+}
+
+.support input {
+  padding: 5px;
+  margin: 2px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#button {
+  background-color: rgb(90, 65, 196);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 20px;
+  font-family: bold;
+  color: white;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+#button:hover {
+  background-color: rgb(74, 54, 158);
+}
+
+.contact {
+  width: 800px;
+  height: 325px;
+  background-color: white;
+  margin-top: 80px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(23, 23, 34, 1);
+}
+
+
+.footercopyright {
+  float: left;
+  width: 50%;
+  height: 200px;
+  background-color: rgba(23, 23, 34, 1);
+}
+
+.footercopyright h1 {
+  color: white;
+  font-family: rimouski;
+  font-size: 30px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.footercopyright a {
+  color: white;
+  text-decoration: none;
+}
+
+.footercopyright p {
+  padding-top: 90px;
+  color: rgba(50, 50, 77, 1);
+  font-family: inter;
+  padding-left: 35px;
+  font-size: 13px;
+}
+
+.footersocials {
+  float: right;
+  background-color: rgba(23, 23, 34, 1);
+  width: 50%;
+  height: 200px;
+}
+
+.footersocials h1 {
+  font-family: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footersocials a {
+  color: white;
+  text-decoration: none;
+}
+
+.footersocials h1:hover {
+  text-decoration: underline;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@font-face { font-family: inter; src: url('fonts/inter.ttf'); }
+@font-face { font-family: ah; src: url('fonts/ah.otf'); }
+@font-face { font-family: rimouski; src: url('fonts/rimouski.otf'); }
+@font-face { font-family: bold; src: url('fonts/bold.otf'); }
