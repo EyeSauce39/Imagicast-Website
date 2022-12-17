@@ -237,6 +237,7 @@ background-color: rgba(18, 18, 26, 1);
   color: white;
 }
 
+@font-face { font-family: inter; src: url('fonts/inter.ttf'); }
 @font-face { font-family: ah; src: url('fonts/ah.otf'); }
 @font-face { font-family: rimouski; src: url('fonts/rimouski.otf'); }
 @font-face { font-family: bold; src: url('fonts/bold.otf'); }
